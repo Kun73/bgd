@@ -14,7 +14,7 @@ g_1(x) = g_2(x) = g(x) = \begin{cases}
 \nabla f(x) - \sqrt{|x|}, &\text{with probability 1/2}
 \end{cases}
 $$
-![](/Users/kunhuang/onedrive/CUHKSZ/disOPT/FL/removing bgd/simulations/ex1.png)
+![](ex1.png)
 
 # BGD can be invariant while the performance of FedAvg varies
 
@@ -50,5 +50,5 @@ It suffices to consider three cases:
 
 For $|d|>2$, we conclude the above three constraints lead to the same minimal value of $\zeta^2 +\psi^2$ for any $x\in\mathbb{R}$. Therefore, the two constants of BGD assumption are invariant. However, the performance of FedAvg varies according to different $d$'s as shown in the following figure.
 
-![](/Users/kunhuang/onedrive/CUHKSZ/disOPT/FL/removing bgd/simulations/invariant.png)
+![](invariant.png)
 
